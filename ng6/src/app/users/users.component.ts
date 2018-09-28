@@ -10,7 +10,7 @@ import { Observable } from 'rxjs';
 export class UsersComponent implements OnInit {
 
   // Holds returning data
-  users$: Object;
+  users$: any;
 
   constructor(private data: DataService) { }
 
